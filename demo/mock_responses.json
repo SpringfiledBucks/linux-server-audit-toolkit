@@ -1,0 +1,36 @@
+{
+  "demo-server-01": {
+    "linux": {
+      "hostname": "demo-server-01", "uptime": "up 12 days, 4 hours", "kernel": "6.8.0-demo",
+      "os_release": "PRETTY_NAME=\"Demo Linux 1.0\"", "cpu": "Architecture: x86_64\nModel name: Demo CPU",
+      "memory": "              total        used        free\nMem:     17179869184  4294967296 12884901888",
+      "filesystem_usage": "Filesystem 1024-blocks Used Available Capacity Mounted on\n/dev/mock0 104857600 20971520 83886080 20% /",
+      "block_devices": "NAME=\"mock0\" SIZE=\"100G\" TYPE=\"disk\" MOUNTPOINT=\"\"",
+      "ip_addresses": "2: eth0 inet 192.0.2.10/24 brd 192.0.2.255 scope global eth0",
+      "default_route": "default via 192.0.2.1 dev eth0",
+      "failed_services": ""
+    },
+    "bmc": {"fru": "FRU Device Description : Builtin FRU Device (ID 0)\nProduct Manufacturer : Demo Manufacturer\nProduct Name : Demo Server\nProduct Serial : DEMO-SN-001"}
+  },
+  "demo-server-02": {
+    "linux": {"error": "SSH_TIMEOUT"},
+    "bmc": {"fru": "FRU Device Description : Builtin FRU Device (ID 0)\nProduct Manufacturer : Demo Manufacturer\nProduct Name : Demo Server\nProduct Serial : DEMO-SN-002"}
+  },
+  "demo-server-03": {
+    "linux": {"error": "SSH_AUTH_FAILED"},
+    "bmc": {"error": "BMC_AUTH_FAILED"}
+  },
+  "demo-server-04": {
+    "linux": {
+      "hostname": "demo-server-04", "uptime": "up 2 days, 1 hour", "kernel": "6.8.0-demo",
+      "os_release": "PRETTY_NAME=\"Demo Linux 1.0\"", "cpu": "Architecture: x86_64\nModel name: Demo CPU",
+      "memory": "              total        used        free\nMem:     8589934592  2147483648 6442450944",
+      "filesystem_usage": "Filesystem 1024-blocks Used Available Capacity Mounted on\n/dev/mock0 52428800 26214400 26214400 50% /",
+      "block_devices": "NAME=\"mock0\" SIZE=\"50G\" TYPE=\"disk\" MOUNTPOINT=\"\"",
+      "ip_addresses": "2: eth0 inet 192.0.2.13/24 brd 192.0.2.255 scope global eth0",
+      "default_route": "default via 192.0.2.1 dev eth0",
+      "failed_services": {"error": "COMMAND_FAILED"}
+    },
+    "bmc": {"fru": "FRU Device Description : Builtin FRU Device (ID 0)\nProduct Manufacturer : Demo Manufacturer\nProduct Name : Demo Server"}
+  }
+}

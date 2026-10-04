@@ -1,0 +1,6 @@
+﻿name,component,field,code,detail
+demo-server-02,linux,hostname,SSH_TIMEOUT,
+demo-server-03,linux,hostname,SSH_AUTH_FAILED,
+demo-server-03,bmc,fru,BMC_AUTH_FAILED,
+demo-server-04,linux,failed_services,COMMAND_FAILED,
+demo-server-04,bmc,serial_number,PARSE_FAILED,missing FRU field

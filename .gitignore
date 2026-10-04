@@ -1,0 +1,12 @@
+__pycache__/
+.pytest_cache/
+.venv/
+.env
+output/
+*.pyc
+.env.*
+private/
+*.pem
+*.key
+my-authorized-hosts.yaml
+my-known-hosts

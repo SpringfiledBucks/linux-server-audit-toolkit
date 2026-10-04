@@ -1,0 +1,5 @@
+﻿name,bmc_host,status,fru_device,manufacturer,product,serial_number
+demo-server-01,192.0.2.110,OK,Builtin FRU Device (ID 0),Demo Manufacturer,Demo Server,DEMO-SN-001
+demo-server-02,192.0.2.111,OK,Builtin FRU Device (ID 0),Demo Manufacturer,Demo Server,DEMO-SN-002
+demo-server-03,192.0.2.112,FAILED,,,,
+demo-server-04,192.0.2.113,PARTIAL,Builtin FRU Device (ID 0),Demo Manufacturer,Demo Server,

@@ -1,0 +1,17 @@
+hosts:
+  - name: demo-server-01
+    host: 192.0.2.10
+    ssh_user: demo
+    bmc_host: 192.0.2.110
+  - name: demo-server-02
+    host: 192.0.2.11
+    ssh_user: demo
+    bmc_host: 192.0.2.111
+  - name: demo-server-03
+    host: 192.0.2.12
+    ssh_user: demo
+    bmc_host: 192.0.2.112
+  - name: demo-server-04
+    host: 192.0.2.13
+    ssh_user: demo
+    bmc_host: 192.0.2.113

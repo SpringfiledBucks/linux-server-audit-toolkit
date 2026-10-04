@@ -1,0 +1,16 @@
+{
+  "hosts": 4,
+  "linux_targets": 4,
+  "bmc_targets": 4,
+  "linux_ok": 1,
+  "bmc_ok": 2,
+  "failure_count": 5,
+  "error_counts": {
+    "BMC_AUTH_FAILED": 1,
+    "COMMAND_FAILED": 1,
+    "PARSE_FAILED": 1,
+    "SSH_AUTH_FAILED": 1,
+    "SSH_TIMEOUT": 1
+  },
+  "result": "PARTIAL"
+}

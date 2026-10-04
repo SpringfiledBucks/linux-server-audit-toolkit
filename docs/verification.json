@@ -1,0 +1,20 @@
+[
+  {
+    "command": "python server_audit.py --inventory demo/hosts.yaml --provider mock --output output",
+    "exit_code": 0,
+    "stdout": "{\"hosts\": 4, \"linux_targets\": 4, \"bmc_targets\": 4, \"linux_ok\": 1, \"bmc_ok\": 2, \"failure_count\": 5, \"error_counts\": {\"BMC_AUTH_FAILED\": 1, \"COMMAND_FAILED\": 1, \"PARSE_FAILED\": 1, \"SSH_AUTH_FAILED\": 1, \"SSH_TIMEOUT\": 1}, \"result\": \"PARTIAL\"}\n",
+    "stderr": ""
+  },
+  {
+    "command": "python -m pytest -q",
+    "exit_code": 0,
+    "stdout": "............                                                             [100%]\n12 passed in 0.79s\n",
+    "stderr": ""
+  },
+  {
+    "command": "python -m pip check",
+    "exit_code": 0,
+    "stdout": "No broken requirements found.\n",
+    "stderr": ""
+  }
+]

@@ -1,0 +1,7 @@
+﻿name,host,status,hostname,uptime,kernel,os_release,cpu,memory,filesystem_usage,block_devices,ip_addresses,default_route,failed_services
+demo-server-01,192.0.2.10,OK,demo-server-01,"up 12 days, 4 hours",6.8.0-demo,Demo Linux 1.0,x86_64,16.0 GiB total,"Filesystem 1024-blocks Used Available Capacity Mounted on
+/dev/mock0 104857600 20971520 83886080 20% /","NAME=""mock0"" SIZE=""100G"" TYPE=""disk"" MOUNTPOINT=""""",2: eth0 inet 192.0.2.10/24 brd 192.0.2.255 scope global eth0,default via 192.0.2.1 dev eth0,none
+demo-server-02,192.0.2.11,FAILED,,,,,,,,,,,
+demo-server-03,192.0.2.12,FAILED,,,,,,,,,,,
+demo-server-04,192.0.2.13,PARTIAL,demo-server-04,"up 2 days, 1 hour",6.8.0-demo,Demo Linux 1.0,x86_64,8.0 GiB total,"Filesystem 1024-blocks Used Available Capacity Mounted on
+/dev/mock0 52428800 26214400 26214400 50% /","NAME=""mock0"" SIZE=""50G"" TYPE=""disk"" MOUNTPOINT=""""",2: eth0 inet 192.0.2.13/24 brd 192.0.2.255 scope global eth0,default via 192.0.2.1 dev eth0,
